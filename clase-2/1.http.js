@@ -31,3 +31,6 @@ const server = http.createServer(processRequest)
 server.listen(desiredPort, () => {
   console.log(`server listening on port http://localhost:${desiredPort}`)
 })
+
+// node --watch nom_arch
+// esto hace que se recargue solo ante un cambio

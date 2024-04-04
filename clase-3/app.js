@@ -55,7 +55,9 @@ app.get('/movies/:id', (req, res) => {
 })
 
 app.post('/movies', (req, res) => {
+  console.log(req.body)
   const result = validateMovie(req.body)
+  console.log(result)
 
   if (!result.success) {
     // 422 Unprocessable Entity

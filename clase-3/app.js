@@ -12,6 +12,8 @@ app.use(cors({
     const ACCEPTED_ORIGINS = [
       'http://localhost:8080',
       'http://localhost:1234',
+      'http://localhost:3000',
+      'http://192.168.56.1:8080',
       'https://movies.com',
       'https://midu.dev'
     ]
